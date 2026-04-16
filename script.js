@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
             q6: "Golden State Warriors",
             q7: "Super Mario Bros. Movie",
             q8: "Avatar: The Last Airbender",
-            q9: "Behavior Technician",
+            q9: "Game Designer",
             q10: "YES!",
         };
         
