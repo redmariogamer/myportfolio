@@ -276,7 +276,14 @@ img{
   justify-content: center;
   height: 500px;
 }
-
+.link-button {
+  margin: 100px 100px;
+  display: inline block;
+  border-radius: 10px;
+  background-color: green;
+  width: 100%
+  height: 100%;
+}
 /*form for filling out contact and message to the owner of this website*/
 form {
   margin: 100px 100px;
