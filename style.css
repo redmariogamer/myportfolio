@@ -283,6 +283,7 @@ img{
   background-color: green;
   width: 100%
   height: 100%;
+  text-align: center;
 }
 /*form for filling out contact and message to the owner of this website*/
 form {
