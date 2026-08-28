@@ -139,9 +139,10 @@ img{
 }
 .image-container {
   display: grid;
-  grid-template-columns: repeat(3, 250px);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
-  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .card {
