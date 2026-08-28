@@ -388,97 +388,106 @@ footer a{
   text-decoration: none;
 }
 
-@media screen and (max-width: 768px){
-  header nav{
+@media screen and (max-width: 768px) {
+  header nav {
     float: none;
-    clear: left;
     width: 100%;
-  }
-  header nav{
     margin: 0;
     padding: 0;
   }
-  .logo{
-    margin: -5px;
+
+  .logo {
+    margin: 0;
     float: none;
-    clear: right;
   }
-  header nav ul li{
-    margin: 10px 0;
-    width: 20%;
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  header nav ul li {
+    margin: 10px;
+    width: auto;
     padding: 0;
     text-align: center;
   }
-  #featured li{
-    width: 40%;
+
+  #featured li {
+    width: auto;
   }
-  .container{
+
+  .container {
+    width: calc(100% - 30px);
     max-width: 768px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #e0e0e0;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   }
-  .wrapper{
+
+  .wrapper {
     width: 100%;
-    max-width: 1400px;
-    padding: 0;
-    margin: -50px;
-    float: right;
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    float: none;
   }
+
   .slideshow {
     justify-content: center;
     width: 100%;
     padding: 0 10px;
-    
-  }
-/*to be determined for the nth child*/
-  .slideshow div:nth-child(4){
-    display: flex;
-    justify-content: space-evenly;
-    width: 40%;
   }
 
-  footer ul{
-    width: 48%;
-    text-align: center;
-  }
-  footer p{
-    display:flex;
-    margin: -5px;
-  }
-}
-@media screen and (max-width: 384px){ 
-  header nav {
-    float: none;
+  .slideshow div:nth-child(4) {
+    display: flex;
+    justify-content: space-evenly;
     width: 100%;
   }
 
+  footer ul {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  footer p {
+    display: block;
+    margin: 0;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
   header nav ul {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  header nav ul li{
+  header nav ul li {
     width: 100%;
-    margin: 10px 0;
+    margin: 8px 0;
     text-align: center;
   }
 
-  .container{
+  .container {
+    width: calc(100% - 20px);
     max-width: 100%;
     padding: 15px;
   }
 
-  .wrapper{
+  .wrapper {
+    width: 100%;
     max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
     float: none;
   }
 
   .slideshow {
     width: 100%;
+    height: auto;
     padding: 0 10px;
   }
 
@@ -487,10 +496,9 @@ footer a{
     height: auto;
   }
 
-  footer ul{
+  footer ul {
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
   }
-
 }
