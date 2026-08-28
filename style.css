@@ -313,17 +313,15 @@ button{
   background-color: #ffffff;
 
 }
-.hover-button{
-  transition: background-color 1s ease-in-out;
-}
-.hover-button{
-    border: 0px solid transparent;
-    border-radius: 12px;
-    padding: 16px 32px;
-    cursor: pointer;
-    font-size: 48px;
-    text-align: center;
-    background: #ee6055;
+.hover-button {
+  border: none;
+  border-radius: 12px;
+  padding: 16px 32px;
+  cursor: pointer;
+  font-size: 2rem;
+  text-align: center;
+  background: #ee6055;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 /*quiz form*/
