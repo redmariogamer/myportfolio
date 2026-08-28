@@ -110,7 +110,7 @@ header nav li a{
 }
 .navbar {
     display: flex;
-    align-items: right;
+    align-items: flex-start;
     justify-content: space-between;
     padding: 10px 30px;
 }
