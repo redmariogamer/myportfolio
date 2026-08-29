@@ -244,25 +244,28 @@ img{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
+  width: 100%;
+  height: auto;
   flex-direction: column;
 }
 
 /*to be determined for the nth child*/
 .slideshow div:nth-child(4){
-  display: flex;
-  justify-content: space-between;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 #image{
   width: 100%;
+  max-width: 100%;
   height: auto;
 }
 .wrapperslides {
   width: 100%;
   max-width: 1000px;
-  margin: 60px auto;
-  min-height: 500px;
+  margin: 40px auto;
+  padding: 0 15px;
 }
 }
 .link-button {
@@ -368,19 +371,20 @@ button:hover {
 footer{
   background: #110d0d;
   margin-top: 100px;
-  padding: 75px 25px;
+  padding: 40px 25px;
   color: gray;
 }
 
 footer ul{
-  float: left;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 30px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  color: #ffeeee;
+  width: 100%;
 }
 
 footer li{
-  margin: -20px 20px;
+  margin: 10px 0;
 }
 
 footer a{
